@@ -1,0 +1,300 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: #FFF4E3;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: #E3D4BD;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;   
+    position: fixed;
+    top: 0px;
+}
+
+.header a{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header .main{
+    height: 80%;
+}
+
+#arrow img{
+    height: 80%;
+}
+
+#prof img{
+    height: 25px;
+    margin-right: 5px;
+}
+
+.menu{
+    width: 55%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu img{
+    height: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.service{
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.service:hover{
+    cursor: pointer;
+}
+
+.service:hover .subMenu{
+    top: 51px;
+    display: block;
+    position: absolute;
+}
+
+.subMenu{
+    display: none;
+    background-color: #E3D4BD;
+    font-size: 16px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 0px 0px 10px 10px;
+    margin-left: -20px;
+}
+
+.subMenu > ul > li{
+    list-style-type: none;
+    padding: 10px;
+    margin-left: -40px;
+}
+
+.subMenu li a:hover{
+    color: darkgoldenrod;
+}
+
+.content{
+    width: 100%;
+    margin-top: 86px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .box{
+    width: 85%;
+    padding: 15px;
+    margin-top: 30px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content .box p{
+    font-weight: lighter;
+}
+
+.content .box span{
+    font-weight: lighter;
+}
+
+.content .box .ceil{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .box .ceil p{
+    margin: 0px;
+}
+
+.content .box .below{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .box .below .left{
+    width: 30%;
+}
+
+.content .box .below .right{
+    width: 60%;
+    margin-top: 19.92px;
+}
+
+.content .box .below .right .detail{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.detail_order{
+    width: 50%;
+}
+
+.rate{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.rate .box{
+    width: 20%;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #F1A42F;
+}
+
+.rate .box img{
+    width: 18%;
+}
+
+.rate .box img:not(:last-child){
+    margin-right: 5px;
+}
+
+.box_rate{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.box_rate a{
+    width: 70%;
+}
+
+.box_rate button{
+    width: 100%;
+    background-color: #F1A42F;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+}
+
+.footer{
+    width: 100%;
+    background-color: #DFCAA9;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerDesc{
+    width: 100%;
+    border-bottom: solid;
+    border-bottom-width: 1.5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon{
+    width: 30%;
+    
+}
+
+.icon .logo{
+    width: 50%;
+    margin-top: 16px;
+}
+
+.wa{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.wa img{
+    width: 7%;
+    margin: 0px 10px 0px 15px;
+}
+
+.email{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.email img{
+    width: 7%;
+    margin: 0px 10px 0px 15px;
+}
+
+.info{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.info p.title{
+    font-size: 20px;
+}
+
+.info .word{
+    text-decoration: none;
+    color: black;
+    margin: 10px 10px 10px 0px;
+    width: fit-content;
+}
+
+.info .logo{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    width: fit-content;
+}
+
+.logo img{
+    width: 10%;
+}
+
+.sosmed{
+    width: 100%;
+    margin: 10px 10px 10px 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.sosmed .logo{
+    width: 10%;
+    padding-right: 10px;
+}
+
+.sosmed img{
+    width: 100%;
+}
+
+.sosmed a{
+    text-decoration: none;
+    color: black;
+}
+
+.copyright{
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <script defer src="login.js"></script>
+</head>
+<body>
+    <div class="header">
+        <a href="../Home/home.html">
+            <img src="../Gambar/Logo.png" alt="">
+        </a> 
+        <div class="menu">
+            <a href="../Home/home.html">Home</a>
+            <div class="service">
+                Services
+                <img src="../Gambar/Arrow.png" alt="">
+                <div class="subMenu">
+                    <ul>
+                        <li><a href="login.html">Pet Hotel</a></li>
+                        <li><a href="login.html">Pet Grooming</a></li>
+                    </ul>
+                </div>
+            </div>
+            <a href="login.html">My Bookings</a>
+            <a href="login.html">Login</a>
+        </div>
+    </div>
+
+    <div class="content">
+
+        <img src="../Gambar/Login.png" alt="">
+        
+        <form action="../Home_login/home.html">
+            <h1>Login</h1>
+            <br>
+
+            <div class="outer">
+                Email:
+                <input class="box" type="text" placeholder="Ex. woof@mail.com" name="" id="email">
+            </div>
+            <span class="errorMsg" id="errorEmail"></span>
+            <br><br>
+
+            <div class="outer">
+                Password:
+                <input class="box" type="password" name="" id="password">
+            </div>
+            <span class="errorMsg" id="errorPass"></span>
+            <br>
+            <div class="outerButton">
+                <input class="button" type="submit" value="Login" onclick="validate()" >
+            </div>
+        </form>
+
+    </div>
+
+    <p class="regis">Don’t have an account? <a href="../Register/register.html">Register</a> </p> 
+
+    <div class="footer">
+        <div class="footerDesc">
+            <div class="icon">
+                <img class="logo" src="../Gambar/Logo.png" alt="">
+                <div class="wa">
+                    <img src="../Gambar/Whatsapp.png" alt=""> 
+                    <p>0872 3615 3839</p> 
+                </div>
+                <div class="email">
+                    <img src="../Gambar/Email.png" alt="">
+                    cs@woofpethotel.com 
+                </div>
+            </div>
+
+            <div class="info">
+                <p class="title">Profile</p>
+                <a class="word" href="../About Us/aboutUs.html">About Us</a>
+            </div>
+
+            <div class="info">
+                <p class="title">Products</p> 
+                <a class="word" href="login.html">Pet Hotel</a>
+                <a class="word" href="login.html">Pet Grooming</a>
+            </div>
+
+            <div class="info">
+                <p class="title">Follow Us</p>
+
+                <p class="sosmed">
+                    <a class="logo" href="">
+                        <img src="../Gambar/Instagram.png" alt="">
+                    </a>
+                    <a class="" href="">
+                        Instagram
+                    </a>
+                </p>
+               
+                <p class="sosmed">
+                    <a class="logo" href="">
+                        <img src="../Gambar/Facebook.png" alt="">
+                    </a>
+                    <a class="" href="">
+                        Facebook
+                    </a>
+                </p>
+                
+                <p class="sosmed">
+                    <a class="logo" href="">
+                        <img src="../Gambar/Twitter.png" alt="">
+                    </a>
+                    <a class="" href="">
+                        Twitter
+                    </a>
+                </p>
+            </div>
+        </div>
+
+        <div class="copyright"> Copyright © 2022 WOOF! Pet Hotel</div>
+       
+    </div>
+</body>
+</html>

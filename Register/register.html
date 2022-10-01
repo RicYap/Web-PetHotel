@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="register.css">
+    <script defer src="register.js"></script>
+</head>
+<body>
+    <div class="header">
+        <a href="../Home/home.html">
+            <img src="../Gambar/Logo.png" alt="">
+        </a> 
+        <div class="menu">
+            <a href="../Home/home.html">Home</a>
+            <div class="service">
+                Services
+                <img src="../Gambar/Arrow.png" alt="">
+                <div class="subMenu">
+                    <ul>
+                        <li><a href="../Login/login.html">Pet Hotel</a></li>
+                        <li><a href="../Login/login.html">Pet Grooming</a></li>
+                    </ul>
+                </div>
+            </div>
+            <a href="../Login/login.html">My Bookings</a>
+            <a href="../Login/login.html">Login</a>
+        </div>
+    </div>
+
+    <div class="content">
+
+        <div class="pic">
+            <img src="../Gambar/Register.png" alt="">
+            <p class="regis">Already have an account? <a href="../Login/login.html">Log In</a> </p> 
+        </div>
+        
+
+        <form action="login.html">
+            <h1>Register</h1>
+
+            <div class="outer">
+                Name:
+                <input class="box" type="text" name="" id="name">
+            </div>
+            <span class="errorMsg" id="errorName"></span>
+            <br>
+
+            <div class="outer">
+                Email:
+                <input class="box" type="text" placeholder="Ex. woof@mail.com" name="" id="email">
+            </div>
+            <span class="errorMsg" id="errorEmail"></span>
+            <br>
+
+            <div class="outer">
+                Phone Number:
+                <input class="box" type="text" name="" id="phoneNumber">
+            </div>
+            <span class="errorMsg" id="errorPhoneNumber"></span>
+            <br>
+
+            <div class="outer">
+                Password:
+                <input class="box" type="password" name="" id="password">
+            </div>
+            <span class="errorMsg" id="errorPass"></span>
+            <br>
+
+            <div class="outer">
+                Confirm password:
+                <input class="box" type="password" name="" id="confirm">
+            </div>
+            <span class="errorMsg" id="errorConfirm"></span>
+            <br>
+
+            <div class="outer">
+                Address:
+                <input class="box" type="text" name="" id="address">
+            </div>
+            <span class="errorMsg" id="errorAddress"></span>
+            <br><br>
+
+            <div class="outerButton">
+                <input class="button" type="submit" value="Register" onclick="validate()" >
+            </div>
+
+        </form>
+
+    </div>
+
+    <div class="footer">
+        <div class="footerDesc">
+            <div class="icon">
+                <img class="logo" src="../Gambar/Logo.png" alt="">
+                <div class="wa">
+                    <img src="../Gambar/Whatsapp.png" alt=""> 
+                    <p>0872 3615 3839</p> 
+                </div>
+                <div class="email">
+                    <img src="../Gambar/Email.png" alt="">
+                    cs@woofpethotel.com 
+                </div>
+            </div>
+
+            <div class="info">
+                <p class="title">Profile</p>
+                <a class="word" href="../About Us/aboutUs.html">About Us</a>
+            </div>
+
+            <div class="info">
+                <p class="title">Products</p> 
+                <a class="word" href="../Login/login.html">Pet Hotel</a>
+                <a class="word" href="../Login/login.html">Pet Grooming</a>
+            </div>
+
+            <div class="info">
+                <p class="title">Follow Us</p>
+
+                <p class="sosmed">
+                    <a class="logo" href="">
+                        <img src="../Gambar/Instagram.png" alt="">
+                    </a>
+                    <a class="" href="">
+                        Instagram
+                    </a>
+                </p>
+               
+                <p class="sosmed">
+                    <a class="logo" href="">
+                        <img src="../Gambar/Facebook.png" alt="">
+                    </a>
+                    <a class="" href="">
+                        Facebook
+                    </a>
+                </p>
+                
+                <p class="sosmed">
+                    <a class="logo" href="">
+                        <img src="../Gambar/Twitter.png" alt="">
+                    </a>
+                    <a class="" href="">
+                        Twitter
+                    </a>
+                </p>
+            </div>
+        </div>
+
+        <div class="copyright"> Copyright © 2022 WOOF! Pet Hotel</div>
+       
+    </div>
+
+</body>
+</html>
